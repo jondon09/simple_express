@@ -15,8 +15,8 @@ spec:
         app: my-app-2
     spec:
       containers:
-      - name: simple-express
-        image: YOUR-DOCKER-ID/simple-express
+      - name: simple_express
+        image: johnnkanu/simple_express
         ports:
         - containerPort: 8080
         livenessProbe:
